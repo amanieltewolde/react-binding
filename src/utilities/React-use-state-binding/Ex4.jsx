@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { exList } from "./List-Exercises";
+import { exListTextA } from "../List-Exercises";
 
 
 export default function Ex4() {
@@ -8,7 +8,7 @@ export default function Ex4() {
 
     return (
         <div>
-            <h6>{exList[3].text}</h6>
+            <h6>{exListTextA[3].text}</h6>
             <h2 className="h1 text-center text-uppercase">{language}</h2>
             <div className="container m-3 d-flex gap-3">
                 <button onClick={() => setLanguage('Benvenuti!!')} className="btn btn-primary">Italiano</button>

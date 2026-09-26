@@ -1,26 +1,51 @@
 import { useState } from "react";
-import { exList } from "./List-Exercises";
+import { exListTextA } from "../List-Exercises";
+
+
 
 export default function Ex5() {
 
-    const [isDone, setIsDone] = useState(false);
+    const christmasList = [
+        {
+            persona: 'Mamma',
+            isDone: false,
+        },
+        {
+            persona: 'Laura',
+            isDone: false,
+        },
+        {
+            persona: 'Papà',
+            isDone: false,
+        },
+        {
+            persona: 'Bobby',
+            isDone: false,
+        },
+        {
+            persona: 'Gasp',
+            isDone: false,
+        },
+        {
+            persona: 'Paulo',
+            isDone: false,
+        },
+    ]
 
-    function handleIsDone() {
-        setIsDone(!isDone);
+    const [done, setDone] = useState(false);
+
+    function handleDone(i) {
     }
 
     return (
         <div>
-            <h6>{exList[4].text}</h6>
+            <h6>{exListTextA[4].text}</h6>
             <div className="container bg-danger text-white">
                 <h4 className=" text-center bg-success">Regali di natale</h4>
                 <ul className="list-group">
-                    <li onClick={handleIsDone} className={`list-group-item ${isDone ? 'text-decoration-line-through' : ''}`}>Mamma</li>
-                    <li onClick={handleIsDone} className={`list-group-item ${isDone ? 'text-decoration-line-through' : ''}`}>Laura</li>
-                    <li onClick={handleIsDone} className={`list-group-item ${isDone ? 'text-decoration-line-through' : ''}`}>Papà</li>
-                    <li onClick={handleIsDone} className={`list-group-item ${isDone ? 'text-decoration-line-through' : ''}`}>Bobby</li>
-                    <li onClick={handleIsDone} className={`list-group-item ${isDone ? 'text-decoration-line-through' : ''}`}>Gasp</li>
-                    <li onClick={handleIsDone} className={`list-group-item ${isDone ? 'text-decoration-line-through' : ''}`}>Paulo</li>
+                    {christmasList.map((pax, i) => (
+                        <li key={pax.persona} onClick={() => handleDone(i)} className="list-group-item">{pax.persona}</li>
+                    ))}
                 </ul>
             </div>
         </div>

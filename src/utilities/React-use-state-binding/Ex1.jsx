@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { exList } from "./List-Exercises";
+import { exListTextA } from "../List-Exercises";
 
 export default function Ex1() {
 
@@ -15,7 +15,7 @@ export default function Ex1() {
 
   return (
     <div>
-      <h6>{exList[0].text}</h6>
+      <h6>{exListTextA[0].text}</h6>
       <div className="container w-25 text-center">
         <p className="fs-1">{numb}</p>
         <button onClick={() => handleIncrement()} className="btn btn-danger m-2">+1</button>
