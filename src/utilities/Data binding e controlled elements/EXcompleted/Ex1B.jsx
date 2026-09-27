@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { exListTextB } from "../List-Exercises";
 import { ChevronRight } from "lucide-react";
+import { exListTextB } from "../../List-Exercises";
 
 export default function Ex1B() {
 
@@ -10,6 +10,7 @@ export default function Ex1B() {
         <div>
             <h6>
                 {exListTextB[0].text}
+
             </h6>
             <div className="container m-2">
                 <label htmlFor="name" className="input-group h6">
