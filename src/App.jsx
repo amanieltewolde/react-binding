@@ -1,6 +1,7 @@
 
 // import ReactUsestatebinding from "./utilities/React-use-state-binding/React Use-state-binding";
 
+import Ex7B from "./utilities/Data binding e controlled elements/EXcompleted/Ex7B";
 import Ex1B from "./utilities/Data binding e controlled elements/EXcompleted/Ex1B";
 import Ex2B from "./utilities/Data binding e controlled elements/EXcompleted/Ex2B";
 import Ex3B from "./utilities/Data binding e controlled elements/EXcompleted/Ex3B";
@@ -25,8 +26,8 @@ export default function App() {
       <Ex3B />
       <Ex4B />
       <Ex5B />
-      {/* <Ex6B /> */}
-
+      <Ex6B />
+      <Ex7B />
 
     </>
   )
