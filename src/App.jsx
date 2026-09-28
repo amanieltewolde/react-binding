@@ -5,6 +5,7 @@ import Ex1B from "./utilities/Data binding e controlled elements/EXcompleted/Ex1
 import Ex2B from "./utilities/Data binding e controlled elements/EXcompleted/Ex2B";
 import Ex3B from "./utilities/Data binding e controlled elements/EXcompleted/Ex3B";
 import Ex4B from "./utilities/Data binding e controlled elements/EXcompleted/Ex4B";
+import Ex5B from "./utilities/Data binding e controlled elements/EXcompleted/Ex5B";
 import Ex6B from "./utilities/Data binding e controlled elements/EXcompleted/Ex6B";
 
 
@@ -23,8 +24,8 @@ export default function App() {
       <Ex2B />
       <Ex3B />
       <Ex4B />
-      <h2 className="bg-danger">-----Qui va Ex5B-------</h2>
-      <Ex6B />
+      <Ex5B />
+      {/* <Ex6B /> */}
 
 
     </>
