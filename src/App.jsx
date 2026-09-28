@@ -8,6 +8,7 @@ import Ex3B from "./utilities/Data binding e controlled elements/EXcompleted/Ex3
 import Ex4B from "./utilities/Data binding e controlled elements/EXcompleted/Ex4B";
 import Ex5B from "./utilities/Data binding e controlled elements/EXcompleted/Ex5B";
 import Ex6B from "./utilities/Data binding e controlled elements/EXcompleted/Ex6B";
+import Ex8B from "./utilities/Data binding e controlled elements/Ex8B";
 
 
 
@@ -28,6 +29,7 @@ export default function App() {
       <Ex5B />
       <Ex6B />
       <Ex7B />
+      <Ex8B />
 
     </>
   )
