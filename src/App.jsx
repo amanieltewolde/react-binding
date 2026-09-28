@@ -1,14 +1,15 @@
 
 // import ReactUsestatebinding from "./utilities/React-use-state-binding/React Use-state-binding";
 
-import Ex7B from "./utilities/Data binding e controlled elements/EXcompleted/Ex7B";
+import Ex9B from "./utilities/Data binding e controlled elements/EXcompleted/Ex9B";
 import Ex1B from "./utilities/Data binding e controlled elements/EXcompleted/Ex1B";
 import Ex2B from "./utilities/Data binding e controlled elements/EXcompleted/Ex2B";
 import Ex3B from "./utilities/Data binding e controlled elements/EXcompleted/Ex3B";
 import Ex4B from "./utilities/Data binding e controlled elements/EXcompleted/Ex4B";
 import Ex5B from "./utilities/Data binding e controlled elements/EXcompleted/Ex5B";
 import Ex6B from "./utilities/Data binding e controlled elements/EXcompleted/Ex6B";
-import Ex8B from "./utilities/Data binding e controlled elements/Ex8B";
+import Ex7B from "./utilities/Data binding e controlled elements/EXcompleted/Ex7B";
+import Ex8B from "./utilities/Data binding e controlled elements/EXcompleted/Ex8B";
 
 
 
@@ -30,6 +31,7 @@ export default function App() {
       <Ex6B />
       <Ex7B />
       <Ex8B />
+      <Ex9B />
 
     </>
   )

@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { exListTextB } from "../List-Exercises";
-import afromalen from '../img/afromalen.png';
+import { exListTextB } from "../../List-Exercises";
+import afromalen from '../../img/afromalen.png';
 
 export default function Ex8B() {
 
