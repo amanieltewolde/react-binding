@@ -1,15 +1,9 @@
 
-// import ReactUsestatebinding from "./utilities/React-use-state-binding/React Use-state-binding";
+import ReactUsestatebinding from "./utilities/React-use-state-binding/React Use-state-binding";
 
-import Ex9B from "./utilities/Data binding e controlled elements/EXcompleted/Ex9B";
-import Ex1B from "./utilities/Data binding e controlled elements/EXcompleted/Ex1B";
-import Ex2B from "./utilities/Data binding e controlled elements/EXcompleted/Ex2B";
-import Ex3B from "./utilities/Data binding e controlled elements/EXcompleted/Ex3B";
-import Ex4B from "./utilities/Data binding e controlled elements/EXcompleted/Ex4B";
-import Ex5B from "./utilities/Data binding e controlled elements/EXcompleted/Ex5B";
-import Ex6B from "./utilities/Data binding e controlled elements/EXcompleted/Ex6B";
-import Ex7B from "./utilities/Data binding e controlled elements/EXcompleted/Ex7B";
-import Ex8B from "./utilities/Data binding e controlled elements/EXcompleted/Ex8B";
+import DataBindingAndCotrolledElements from "./utilities/Data binding e controlled elements/Data-Binding & Controlled Elements";
+
+
 
 
 
@@ -20,18 +14,11 @@ export default function App() {
     <>
       <h1 className="text-center">React-binding</h1>
       <h3>React Use-state-binding</h3>
-      {/* <ReactUsestatebinding /> */}
+      <ReactUsestatebinding />
 
       <h3>Data-binding & controlled elements</h3>
-      <Ex1B />
-      <Ex2B />
-      <Ex3B />
-      <Ex4B />
-      <Ex5B />
-      <Ex6B />
-      <Ex7B />
-      <Ex8B />
-      <Ex9B />
+      <DataBindingAndCotrolledElements />
+
 
     </>
   )

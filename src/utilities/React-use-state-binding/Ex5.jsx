@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { exListTextA } from "../List-Exercises";
 
 
@@ -32,10 +32,10 @@ export default function Ex5() {
         },
     ]
 
-    const [done, setDone] = useState(false);
+    // const [done, setDone] = useState(false);
 
-    function handleDone(i) {
-    }
+    // function handleDone() {
+    // }
 
     return (
         <div>
@@ -43,8 +43,8 @@ export default function Ex5() {
             <div className="container bg-danger text-white">
                 <h4 className=" text-center bg-success">Regali di natale</h4>
                 <ul className="list-group">
-                    {christmasList.map((pax, i) => (
-                        <li key={pax.persona} onClick={() => handleDone(i)} className="list-group-item">{pax.persona}</li>
+                    {christmasList.map((pax) => (
+                        <li key={pax.persona} onClick={() => handleDone()} className="list-group-item">{pax.persona}</li>
                     ))}
                 </ul>
             </div>

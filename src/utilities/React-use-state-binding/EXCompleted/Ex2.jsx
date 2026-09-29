@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { exListTextA } from "../List-Exercises";
+import { exListTextA } from "../../List-Exercises";
 
 export default function Ex2() {
 
